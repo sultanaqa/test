@@ -1,0 +1,67 @@
+body {
+    position: relative;
+}
+
+i {
+
+    font-size: 200px;
+    color: rgb(94, 34, 34);
+    position: relative;
+    left: 25px;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+
+.p1 {
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 100px;
+}
+
+
+.house-in {
+    width: 50%;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+.deatail {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.roast-french {
+    width: 50%;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+
+.deatail.last {
+    margin-bottom: 60px;
+}
+
+.about {
+    margin-bottom: 60px;
+}
+
+.table {
+    border: 2px solid black;
+    width: 30%;
+    margin-bottom: 60px;
+}
+
+.textarea {
+
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.br {
+    margin-bottom: 60px;
+
+}
