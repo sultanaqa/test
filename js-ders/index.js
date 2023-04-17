@@ -512,22 +512,311 @@
 // 2 den artiq boyuk herfi olan sozleri ekrana cixarin
 
 
-arr=[2,9,6,11,-5,-3,8,6,"AzerBayCan",true,12,346,"LANKARAN","LimOn",2,9,182]
+// arr=[2,9,6,11,-5,-3,8,6,"AzerBayCan",true,12,346,"LANKARAN","LimOn",2,9,182]
 
-for (let i = 0; i < arr.length; i++) {
-    if ( typeof (arr[i]) =='string' && arr[i]===arr[i].toUpperCase()) {
-        console.log(arr[i]);
+// for (let i = 0; i < arr.length; i++) {
+//     if ( typeof (arr[i]) =='string' && arr[i]===arr[i].toUpperCase()) {
+//         console.log(arr[i]);
       
-    }
+//     }
 
-   }
+//    }
+
+// function sayHello(name, surname,age)  {
+//   console.log("hi "+name+" "+surname+ " "+age);
+// }
+
+// sayHello("yazi","yazilar",23)
+// sayHello("yvbni","daha cox random",234234)
 
 
 
 
 
 
+// funksiya
 
+
+// function calc(a,b ){
+//   return a+b
+// }
+// let result = calc(4,5)
+// console.log(result);
+
+
+
+// let calc2 = function (a,b) {
+//   return a+b
 
   
+// }
+
+
+
+// let calc3 = (a,b)=> a+b
+
+
+// console.log(calc2(34,5));
+// console.log(calc3(4,5));
+
+
+
+
+  //toplama cixma ...
+//  function calc(a,b ){
+//   return a+b
  
+// }
+// let result = calc(4,5)
+// console.log(result);
+
+
+// function calc2(a,b ){
+//   return a-b
+// }
+// let result2 = calc2(4,5)
+// console.log(result2);
+
+// function calc3(a,b ){
+//   return a/b
+// }
+// let result3 = calc3(4,5)
+// console.log(result3);
+
+// function calc4(a,b ){
+//   return a*b
+// }
+// let result4 = calc4(4,5)
+// console.log(result4);
+
+
+
+//iki ededi muqaise
+
+// function calc4(a,b ){
+//   if (a>b) {
+//     return "yazi"
+    
+//   }
+// }
+// let result4 = calc4(6,5)
+// console.log(result4);
+
+//daxil edilen ad soyadi obyekt kimi retun eden funksiya yazin
+// objectt ={}
+
+// function sayHello(name, surname,age)  {
+
+//   objectt.name =name;
+//   objectt.surname=surname;
+// return objectt
+  
+// }
+
+// console.log(sayHello("Ad","Soyad"));
+
+
+//daxil edilen 4 ededi array kimi return eden funksiya yazin
+
+// arr =[]
+
+// function sayHello(a,b,c,d)  {
+
+//   arr.push(a,b,c,d)
+//   return arr
+  
+// }
+
+// console.log(sayHello(3,4,5,6));
+
+
+
+//daxil edilen arrayi elementleri arasinda * olan string ceviren funksiya yazin
+
+// arr =[]
+
+// function sayHello(a,b,c,d)  {
+
+//   arr.push(a, "*" , b , "*", c , "*", d)
+//   return arr.toString()
+  
+// }
+
+// console.log(sayHello(3,4,5,6));
+
+// let array = [1,2,3,4]
+// function name1(arr) {
+//   let ifade = "";
+//   for (let i = 0; i < arr.length; i++) {
+//     ifade += arr[i] + "*";
+    
+//   }
+  
+//   console.log(ifade);
+  
+// }
+// name1(array);
+
+
+
+
+
+
+
+//
+// let word=" Men bu gun Bakiya gedirem ki, yaxsi dincelim. Gelende kime ne alim? Kiminse ureyi ne ise istese gedib ozu alar... "
+// console.log(word.length);
+// console.log(word.slice(4,6));
+// console.log(word.substring(0,10));
+// console.log(word.replace("a","z"));
+// console.log(word.replaceAll("a","w"));
+// console.log(word.toLocaleUpperCase());
+// console.log(word.toLowerCase());
+// let word1="astara"
+// let word2="cennet yurdum "
+// console.log(word2.concat(word1));
+// console.log(word.trim());
+// console.log(word.trimStart());
+// console.log(word.trimEnd());
+// console.log(word.padStart(2, '0'));
+// console.log(word.padEnd());/
+// console.log(word.charAt());
+// console.log(word.split(","));
+
+// let word=" Men bu gun Bakiya gedirem ki, yaxsi dincelim. Gelende kime ne alim? Kiminse ureyi ne ise istese gedib ozu alar... "
+// // 2-ci sozu capa veren funksiya yazin
+// function name(yazi) {
+//   for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+    
+//   }
+  
+// }
+// let arr = ["apple","samsung","xioami"]
+// // arr.forEach(x=>console.log(x))
+// console.log(arr.includes("sdfsdf")); 
+// console.log(arr.fill("huawei"));
+// console.log(arr.indexOf("apple"));
+// console.log(Array.isArray(arr));
+// console.log(arr.join("-"));
+// console.log(arr.keys());
+// console.log(arr.lastIndexOf());
+// console.log(arr.map("cennet yurdum astara"));
+// console.log(arr.reverse());
+// console.log(arr.sort());
+// console.log(arr.slice(0, 2));
+
+
+// const ages = [3, 10, 18, 20];
+// document.getElementById("demo").innerHTML = ages.some(checkAdult);
+
+// function checkAdult(age) {
+//   return age > 18;
+// }
+
+// arrayin 1-ci elementini silen funksiya yazin
+let arr=["lankaran","baki","masalli","lerik","astara"]
+// function astara(arr1) {
+  
+//   arr1.shift();
+//   return arr1
+
+  
+// }
+// console.log(astara(arr));
+
+
+//2 arrayi tersine ceviren funksiya yazin
+
+// function astara(arr1) {
+  
+//   arr1.reverse();
+//   return arr1
+
+  
+// }
+// console.log(astara(arr));
+
+
+
+//3 arrayin tek indeksinde olan elementlerin sonuna AZE elave eden funksiya yazin
+
+
+// function astara(arr1) {
+  
+// for (let i = 0; i < arr1.length; i++) {
+//      if (i%2!==0) {
+
+//       arr1[i]= arr1[i]+ "AZE"
+      
+//      }
+     
+  
+// }
+// return arr1
+// }
+
+// console.log(astara(arr));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
