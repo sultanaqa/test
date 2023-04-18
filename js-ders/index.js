@@ -715,7 +715,7 @@
 // }
 
 // arrayin 1-ci elementini silen funksiya yazin
-let arr=["lankaran","baki","masalli","lerik","astara"]
+// let arr=["lankaran","baki","masalli","lerik","astara"]
 // function astara(arr1) {
   
 //   arr1.shift();
@@ -758,8 +758,219 @@ let arr=["lankaran","baki","masalli","lerik","astara"]
 
 // console.log(astara(arr));
 
+// const arr = [32, 33, 16, 40];
+// function astara(arr1) {
+//   return arr1 >= 18
+  
+// }
+// console.log(arr.filter(astara));
+
+// const arr = [32, 33, 16, 40];
+// function astara(arr1) {
+//   return arr1 >= 18
+  
+// }
+// console.log(arr.find(astara));
+// const arr = [32, 33, 99, 40];
+// function astara(arr1) {
+//   return arr1 > 18;
+  
+// }
+// console.log(arr.every(astara));
 
 
+// const arr = [32, 33, 99, 40];
+// function astara(arr1) {
+//   return arr1 > 18;
+  
+// }
+// console.log(arr.join("-"));
+
+
+// const arr = [32, 33, 99, 40,"astara","astaralilar","astarada","mandarain","limon"];
+//  function astara(arr1) {
+    
+  
+//  }
+//  console.log(arr.sort());
+ 
+
+
+// let arr = [
+//   {
+//   id: 2,
+//   description: "Sweet and savory sauces relishes spreads and seasonings",
+//   name: "Condiments"
+//   },
+//   {
+//   id: 1,
+//   description: "Soft drinks coffees teas beers and ales",
+//   name: "Beverages"
+//   },
+//   {
+//   id: 3,
+//   description: "Desserts candies and sweet breads",
+//   name: "Confections"
+//   },
+//   {
+//   id: 4,
+//   description: "Cheeses",
+//   name: "Dairy Products"
+//   },
+//   {
+//   id: 5,
+//   description: "Breads crackers pasta and cereal",
+//   name: "Grains/Cereals"
+//   },
+//   {
+//   id: 6,
+//   description: "Prepared meats",
+//   name: "Meat/Poultry"
+//   },
+//   {
+//   id: 7,
+//   description: "Dried fruit and bean curd",
+//   name: "Produce"
+//   },
+//   {
+//   id: 8,
+//   description: "Seaweed and fish",
+//   name: "Seafood"
+//   }
+//   ]
+
+// console.table(arr);
+// console.table(arr.sort((a,b)=>a.description>b.description ? 1 : -1));
+let arr = [
+  {
+    ad: "Senuber",
+    soyad: "Besirzade",
+    yas: "23",
+    kesir: false,
+    hobbies: ["gitara", "resm", "mahni"],
+  },
+  {
+    ad: "Zeyneb",
+    soyad: "Xanizade",
+    yas: "20",
+    kesir: false,
+    hobbies: ["musiqi", "gezmek"],
+  },
+  {
+    ad: "Yusif",
+    soyad: "Memmedov",
+    yas: "28",
+    kesir: false,
+    hobbies: ["xarici dil", "alqoritm"],
+  },
+  {
+    ad: "Cavid",
+    soyad: "Zeynalov",
+    yas: "22",
+    kesir: false,
+    hobbies: ["seir yazmaq", "xarici olkeler"],
+  },
+  {
+    ad: "Yusif",
+    soyad: "Tagiyev",
+    yas: "23",
+    kesir: false,
+    hobbies: ["oyun", "futbol", "voleybol"],
+  },
+  {
+    ad: "Adil",
+    soyad: "Sefizade",
+    yas: "21",
+    kesir: false,
+    hobbies: ["futbol", "voleybol", "at capmaq", "tarixi faklarla maraqlanmaq"],
+  },
+  {
+    ad: "Adil",
+    soyad: "Mediyev",
+    yas: "28",
+    kesir: false,
+    hobbies: ["kofe duzeltmek", "jazz"],
+  },
+  {
+    ad: "Vasif",
+    soyad: "Ejderov",
+    yas: "20",
+    kesir: true,
+    hobbies: ["futbol oynamaq", "masin surmek"],
+  },
+];
+
+//1) butun telebeleri capa veren funksiya yazin obyekt
+
+// function astara(arr1) {
+//   for (let elem of arr) {
+    
+//     console.log(elem.ad);
+//   }
+  
+// }
+
+// astara(arr)
+
+
+// ad soyad capa versin: <Ad Soyad>
+
+// function astara(arr1) {
+//   for (let elem of arr) {
+    
+//     console.log(`<${elem.ad} ${elem.soyad}>`);
+//   }
+  
+// }
+
+// astara(arr)
+
+//yasi 24-den yuxari olan telebelerin adini soyadini  ve yasini : < Ad Soyad x yas>
+
+// function astara(arr1) {
+//   for (let elem of arr) {
+    
+//     if (elem.yas>24) {
+//       console.log(`<${elem.ad} ${elem.soyad} ${elem.yas}>`);
+      
+//     }
+//   }
+  
+// }
+
+// astara(arr)
+
+
+//kesri olan telebenin adini ve hobbilerini capa veren : Qurban > Hobbies : video, sekil
+
+// function astara(arr1) {
+//   for (let elem of arr) {
+    
+//     if (elem.kesir===true) {
+//       console.log(`<${elem.ad} ${elem.soyad} ${elem.yas}>`);
+      
+//     }
+//   }
+  
+// }
+
+// astara(arr)
+
+// tekrarlanan adlari olan telebelerin ad ve soyadalrini capa f yazin
+
+function astara(arr) {
+  for (let elem of arr) {
+    
+    if (elem.ad) {
+
+      console.log(`<${elem.ad} ${elem.soyad}>`);
+      
+    }
+  }
+  
+}
+
+astara(arr)
 
 
 
