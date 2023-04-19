@@ -841,64 +841,64 @@
 
 // console.table(arr);
 // console.table(arr.sort((a,b)=>a.description>b.description ? 1 : -1));
-let arr = [
-  {
-    ad: "Senuber",
-    soyad: "Besirzade",
-    yas: "23",
-    kesir: false,
-    hobbies: ["gitara", "resm", "mahni"],
-  },
-  {
-    ad: "Zeyneb",
-    soyad: "Xanizade",
-    yas: "20",
-    kesir: false,
-    hobbies: ["musiqi", "gezmek"],
-  },
-  {
-    ad: "Yusif",
-    soyad: "Memmedov",
-    yas: "28",
-    kesir: false,
-    hobbies: ["xarici dil", "alqoritm"],
-  },
-  {
-    ad: "Cavid",
-    soyad: "Zeynalov",
-    yas: "22",
-    kesir: false,
-    hobbies: ["seir yazmaq", "xarici olkeler"],
-  },
-  {
-    ad: "Yusif",
-    soyad: "Tagiyev",
-    yas: "23",
-    kesir: false,
-    hobbies: ["oyun", "futbol", "voleybol"],
-  },
-  {
-    ad: "Adil",
-    soyad: "Sefizade",
-    yas: "21",
-    kesir: false,
-    hobbies: ["futbol", "voleybol", "at capmaq", "tarixi faklarla maraqlanmaq"],
-  },
-  {
-    ad: "Adil",
-    soyad: "Mediyev",
-    yas: "28",
-    kesir: false,
-    hobbies: ["kofe duzeltmek", "jazz"],
-  },
-  {
-    ad: "Vasif",
-    soyad: "Ejderov",
-    yas: "20",
-    kesir: true,
-    hobbies: ["futbol oynamaq", "masin surmek"],
-  },
-];
+// let arr = [
+//   {
+//     ad: "Senuber",
+//     soyad: "Besirzade",
+//     yas: "23",
+//     kesir: false,
+//     hobbies: ["gitara", "resm", "mahni"],
+//   },
+//   {
+//     ad: "Zeyneb",
+//     soyad: "Xanizade",
+//     yas: "20",
+//     kesir: false,
+//     hobbies: ["musiqi", "gezmek"],
+//   },
+//   {
+//     ad: "Yusif",
+//     soyad: "Memmedov",
+//     yas: "28",
+//     kesir: false,
+//     hobbies: ["xarici dil", "alqoritm"],
+//   },
+//   {
+//     ad: "Cavid",
+//     soyad: "Zeynalov",
+//     yas: "22",
+//     kesir: false,
+//     hobbies: ["seir yazmaq", "xarici olkeler"],
+//   },
+//   {
+//     ad: "Yusif",
+//     soyad: "Tagiyev",
+//     yas: "23",
+//     kesir: false,
+//     hobbies: ["oyun", "futbol", "voleybol"],
+//   },
+//   {
+//     ad: "Adil",
+//     soyad: "Sefizade",
+//     yas: "21",
+//     kesir: false,
+//     hobbies: ["futbol", "voleybol", "at capmaq", "tarixi faklarla maraqlanmaq"],
+//   },
+//   {
+//     ad: "Adil",
+//     soyad: "Mediyev",
+//     yas: "28",
+//     kesir: false,
+//     hobbies: ["kofe duzeltmek", "jazz"],
+//   },
+//   {
+//     ad: "Vasif",
+//     soyad: "Ejderov",
+//     yas: "20",
+//     kesir: true,
+//     hobbies: ["futbol oynamaq", "masin surmek"],
+//   },
+// ];
 
 //1) butun telebeleri capa veren funksiya yazin obyekt
 
@@ -958,20 +958,98 @@ let arr = [
 
 // tekrarlanan adlari olan telebelerin ad ve soyadalrini capa f yazin
 
-function astara(arr) {
-  for (let elem of arr) {
+// function astara(arr) {
+//   for (let elem of arr) {
     
-    if (elem.ad) {
+//     if (elem.ad) {
 
-      console.log(`<${elem.ad} ${elem.soyad}>`);
+//       console.log(`<${elem.ad} ${elem.soyad}>`);
       
-    }
-  }
+//     }
+//   }
   
-}
+// }
 
-astara(arr)
+// astara(arr)
 
+
+///////////////////////////
+///////////////////////////
+// const ast = document.getElementById("ast")
+// ast.style.backgroundColor = "hotpink"
+// ast.style.color ="white"
+// ast.style.width = "1000px"
+// ast.style.height = "1000px"
+// console.log(ast.innerText);
+// const lnk = document.getElementById
+// // ast.onclick = function() {
+// //    ast.style.backgroundColor = "red"
+// //    alert("ok'a aidiyyati yoxdu, cennet cennet astaraaaa")
+// // }
+
+// ast.addEventListener("click",function name() {
+//     alert("cennet yoxsa cehennem?? dhdhdh cennet cennet")
+//     ast.style.backgroundColor = "green"
+//     const newElement = document.createElement("h2")
+//     let deyer = prompt("deyer")
+//     newElement.innerText =deyer
+    
+    
+// })
+document.body.style.backgroundColor = "hotpink";
+const btn = document.getElementById("btn")
+const tsk1 = document.getElementById("tsk1")
+const tsk2 = document.getElementById("tsk2")
+const tsk3 = document.getElementById("tsk3")
+btn.style.backgroundColor = ("pink")
+btn.style.width = "200px";
+btn.style.height = "30px";
+btn.style.fontSize = "20px";
+tsk1.style.color = "blue"
+tsk1.style.backgroundColor = "purple"
+tsk2.style.color = "lightblue"
+tsk2.style.backgroundColor = "blue"
+tsk3.style.color = "red"
+tsk3.style.backgroundColor = "yellow"
+
+
+tsk1.innerText = tsk1.innerText + " task 1"
+tsk2.innerText = tsk2.innerText + " task 2"
+tsk3.innerText = tsk3.innerText + " task 3"
+
+
+console.log(tsk1.innerText);
+console.log(tsk2.innerText);
+console.log(tsk3.innerText);
+console.log(btn.parentElement);
+const altElemnet1 = document.createElement("button")
+altElemnet1.innerText = "Yazi1"
+const altElemnet2 = document.createElement("button")
+altElemnet2.innerText = "Yazi2"
+const altElemnet3 = document.createElement("button")
+altElemnet3.innerText = "Yazi3"
+tsk1.appendChild(altElemnet1)
+tsk2.appendChild(altElemnet2)
+tsk3.appendChild(altElemnet3)
+
+
+const altElemnet4 = document.createElement("button")
+altElemnet4.innerText = "Yazi4"
+const altElemnet5 = document.createElement("button")
+altElemnet5.innerText = "Yazi5"
+const altElemnet6 = document.createElement("button")
+altElemnet6.innerText = "Yazi6"
+tsk1.appendChild(altElemnet4)
+tsk2.appendChild(altElemnet5)
+tsk3.appendChild(altElemnet6)
+
+
+altElemnet1.innerText = altElemnet1.innerText + " delete, edit"
+altElemnet2.innerText = altElemnet2.innerText + " delete, edit"
+altElemnet3.innerText = altElemnet3.innerText + " delete, edit"
+altElemnet4.innerText = altElemnet4.innerText + " delete, edit"
+altElemnet5.innerText = altElemnet5.innerText + " delete, edit"
+altElemnet6.innerText = altElemnet6.innerText + " delete, edit"
 
 
 
