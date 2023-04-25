@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    /* background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsmDMUnGRMxFlbOeKGGf5QXsNX_2FFsE9OQw&usqp=CAU); */
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: cover;
+}
+.card_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
