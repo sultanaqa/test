@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="crtA"><h1>Create Account</h1></div>
+        <div class="get"><p>Get started with your free account</p></div>
+        <div class="social"><p class="social1"><i class="fa-brands fa-twitter"></i> Login via Twitter</p></div>
+        <div class="social"><p class="social2"><i class="fa-brands fa-facebook"></i> Login via Facebook</p></div>
+        <div class="container_2">
+            <div class="box"></div>
+            <p>OR</p>
+            <div class="box"></div>
+        </div>
+        <form id="form" style="max-width:500px;margin:auto">
+            <div class="input-container">
+              <i  class="fa fa-user icon"></i>
+              <input id="fullname" class="input-field" type="text" placeholder="Full name" name="usrnm">
+            </div>
+          
+            <div class="input-container">
+              <i  class="fa fa-envelope icon"></i>
+              <input id="email"  class="input-field" type="text" placeholder="Email address" name="email">
+            </div>
+            
+            <div class="input-container">
+                <i class="fa-solid fa-phone-flip icon"></i>
+                <input class="input-field" type="number" placeholder="+971" name="psw">
+              <input class="input-field" type="number" placeholder="Phone number" name="psw">
+            </div>
+            <div class="input-container">
+                <i class="fa-solid fa-building icon"></i>
+                <select class="input-field" id="country" name="country">
+                    <option value="australia">Select job type</option>
+                    <option value="canada">Job2</option>
+                    <option value="usa">Job3</option>
+                  </select>
+              </div>
+              <div class="input-container">
+                <i class="fa fa-envelope icon"></i>
+                <input id="password1" class="input-field" type="password" placeholder="Create password" name="email">
+              </div>
+              <div class="input-container">
+                <i class="fa fa-envelope icon"></i>
+                <input id="password2" class="input-field" type="password" placeholder="Repeat password" name="email">
+              </div>
+          
+            <button id="btn1" type="submit" class="btn">Create Account</button>
+          </form>
+          <div><p>Have an account?<a href="#">Log in</a></p></div>
+
+          <script src="./index.js"></script>
+    </div>
+</body>
+</html>
