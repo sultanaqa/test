@@ -1,0 +1,70 @@
+.card {
+    padding: 0px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 8px solid hotpink;
+}
+.bottom {
+    color: rgb(16, 196, 196);
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+.p_, .h2_, .img_ {
+    background-color: pink ;
+    text-align: center;
+    color: darkmagenta;
+}
+.p_1, .h2_1, .img_1 {
+    background-color: rgb(83, 132, 185) ;
+    text-align: center;
+    color: darkmagenta;
+}
+.p_2, .h2_2, .img_2 {
+    background-color: rgb(212, 32, 62) ;
+    text-align: center;
+    color: rgb(238, 159, 238);
+}
+.p_3, .h2_3, .img_3 {
+    background-color: rgb(73, 43, 48) ;
+    text-align: center;
+    color: rgb(109, 102, 109);
+}
+
+.container {
+    display: flex;
+}
+
+.card1 {
+    padding: 0px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 8px solid rgb(203, 94, 21);
+}
+.card2 {
+    padding: 0px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 8px solid rgb(70, 3, 36);
+}
+.card3 {
+    padding: 0px;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 8px solid rgb(15, 36, 120);
+}
+
+/* <div class="info_1">${data[0].currencies.TRY.name}</div> */
