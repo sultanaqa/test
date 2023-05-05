@@ -1,5 +1,4 @@
 main {
-
     width: 100%;
     padding-top: 100px;
 
@@ -7,7 +6,6 @@ main {
         width: 100%;
         display: flex;
         padding: 0 60px 0 60px;
-
 
         .left {
             width: 50%;
@@ -30,7 +28,7 @@ main {
                 gap: 40px;
 
                 button {
-                    background: #EF6D58;
+                    background: #ef6d58;
                     width: 100px;
                     height: 34px;
                     border: 0px;
@@ -46,7 +44,6 @@ main {
                     p {
                         width: 100%;
                     }
-
                 }
 
                 display: flex;
@@ -71,18 +68,18 @@ main {
     }
 
     .logos {
-        padding: 0 60px 0 60px;
-        ;
+        padding: 60px 60px 0 60px;
         width: 100%;
         display: flex;
         flex-direction: column;
         gap: 20px;
-        background-color: #F2F2F2;
+        background-color: #f2f2f2;
 
         .bicmap {
             width: 100%;
             display: flex;
             justify-content: space-between;
+            padding-bottom: 60px;
 
             img {
                 width: 100px;
@@ -93,7 +90,7 @@ main {
         .arrow {
             height: 1px;
             width: 100%;
-            background-color: #F3D1BF;
+            background-color: #f3d1bf;
         }
     }
 
@@ -103,7 +100,7 @@ main {
         padding-top: 100px;
         padding-bottom: 100px;
         display: flex;
-        background-color: #F2F2F2;
+        background-color: #f2f2f2;
 
         .left {
             display: flex;
@@ -120,19 +117,19 @@ main {
         .right {
             width: 50%;
             display: flex;
-            flex-direction:column ;
+            flex-direction: column;
             gap: 20px;
             #abt {
-                font-family: 'Epilogue';
+                font-family: "Epilogue";
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 32px;
-                color: #EF6D58;
+                color: #ef6d58;
             }
 
             h3 {
-                font-family: 'Epilogue';
+                font-family: "Epilogue";
                 font-style: normal;
                 font-weight: 800;
                 font-size: 50px;
@@ -142,7 +139,7 @@ main {
             }
 
             h4 {
-                font-family: 'Epilogue';
+                font-family: "Epilogue";
                 font-style: normal;
                 font-weight: 400;
                 font-size: 15px;
@@ -151,9 +148,7 @@ main {
             }
 
             p {
-               
-
-                font-family: 'Epilogue';
+                font-family: "Epilogue";
                 font-style: normal;
                 font-weight: 400;
                 font-size: 14px;
@@ -163,14 +158,14 @@ main {
             }
 
             button {
-                font-family: 'Epilogue';
+                font-family: "Epilogue";
                 font-style: normal;
                 font-weight: 600;
                 font-size: 13px;
                 line-height: 14px;
                 text-align: center;
                 text-transform: uppercase;
-                background: #FFFFFF;
+                background: #ffffff;
 
                 width: 100px;
                 height: 34px;
@@ -179,7 +174,168 @@ main {
                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             }
         }
+    }
+    .experience {
+        background-color: #f2f2f2;
+        width: 100%;
+        padding: 100px;
+        
+        .bottom {
+            padding-top: 120px;
+            width: 100%;
+            display: flex;
+            .left {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                #how {
+                    font-family: "Epilogue";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 32px;
+                    /* identical to box height, or 200% */
 
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+
+                    /* Text_Dark_Accent */
+
+                    color: #ef6d58;
+                }
+                h6 {
+                    width: 80%;
+                    font-family: "Epilogue";
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 35px;
+                    line-height: 48px;
+                    /* or 120% */
+
+                    /* Text_Dark */
+
+                    color: #391400;
+                }
+                p {
+                    width: 80%;
+                    font-family: "Epilogue";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 25px;
+                    /* or 200% */
+
+                    /* Text_Dark_Gray */
+
+                    color: rgba(57, 20, 0, 0.64);
+                }
+                #read {
+                    font-family: "Epilogue";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 32px;
+                    /* identical to box height, or 200% */
+
+                    /* Text_Dark */
+
+                    color: #391400;
+                }
+            }
+            .right {
+                width: 50%;
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                  
+                    li {
+                        display: flex;
+                        align-items: center;
+                        gap: 60px;
+                      
+
+                        #first {
+                            font-family: "Epilogue";
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 62px;
+                            line-height: 80px;
+                            /* identical to box height, or 111% */
+
+                            letter-spacing: -2px;
+
+                            color: #391400;
+                        }
+                        #second {
+                            font-family: "Epilogue";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 19px;
+                            line-height: 32px;
+                            /* identical to box height, or 133% */
+
+                            /* Text_Dark */
+
+                            color: #391400;
+                        }
+                    }
+                }
+            }
+        }
+        .top {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            #start {
+                border-radius: 6px 0 0 6px;
+                border-right: 0px;
+            }
+            #end {
+                border-radius: 0 6px 6px 0;
+                border-left: 0px;
+            }
+            div {
+                display: flex;
+                flex-direction: column;
+                width: 34%;
+                border: 1px solid #f3d1bf;
+
+                padding: 45px 0 35px 40px;
+                h5 {
+                    font-family: "Epilogue";
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 35px;
+                    line-height: 48px;
+                }
+                p {
+                    font-family: "Epilogue";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 32px;
+                }
+            }
+        }
+    }
+    .edits{
+        .video{
+            display: flex;
+            .left{
+                width: 50%;
+                #scene{
+                    width: 60%;
+
+                }
+                #play{
+                    width: 40;
+                }
+            }
+            .right{
+                width: 50%;
+            }
+        }
     }
 }
 
@@ -229,33 +385,32 @@ main {
                 }
             }
         }
-        .logos{
+        .logos {
             padding-top: 40px;
-            .bicmap{
-              flex-wrap:wrap;
-              justify-content: center;
-             gap: 30px;
-             img{
-                width: 120px;
-             }
+            .bicmap {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 30px;
+                img {
+                    width: 120px;
+                }
+            }
         }
-    }
-        .about{
+        .about {
             padding: 60px 20px;
             flex-direction: column;
-            .left{
+            .left {
                 width: 100%;
             }
-            .right{
+            .right {
                 width: 100%;
-                h3{
+                h3 {
                     width: 100%;
                 }
-                p{
+                p {
                     width: 85%;
                 }
             }
         }
     }
-
 }
