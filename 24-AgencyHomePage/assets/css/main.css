@@ -2814,10 +2814,10 @@ main .footer .bottom div p {
 main .design_studio {
   max-width: 1440px;
   display: flex;
-  padding: 0 60px 0 60px;
+  justify-content: center;
 }
 main .design_studio .left {
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2920,10 +2920,10 @@ main .design_studio .left .meta img {
   height: 40px;
 }
 main .design_studio .right {
-  width: 50%;
+  width: 40%;
 }
 main .design_studio .right img {
-  object-fit: cover;
+  width: 80%;
 }
 main .agency-p {
   max-width: 1440px;
@@ -3051,6 +3051,7 @@ main .portfolio1 {
   flex-direction: column;
   gap: 50px;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 main .portfolio1 .category1 {
   width: 100%;
@@ -3084,14 +3085,24 @@ main .portfolio1 div h5 {
 }
 main .portfolio1 .top {
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
 }
-main .portfolio1 .top .port {
+main .portfolio1 .top .topa {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 80%;
+  gap: 30px;
+}
+main .portfolio1 .top .topa .port {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
-main .portfolio1 .top .port h2 {
+main .portfolio1 .top .topa .port h2 {
   font-family: Epilogue;
   font-size: 56px;
   font-weight: 800;
@@ -3099,6 +3110,22 @@ main .portfolio1 .top .port h2 {
   letter-spacing: -1px;
   text-align: center;
   color: rgb(255, 255, 255);
+}
+main .portfolio1 .top .topa .port button {
+  height: 48px;
+  width: 170px;
+  left: 0px;
+  top: 0px;
+  border-radius: 6px;
+  color: white;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  background-color: rgb(40, 41, 62);
+  border: 1px solid rgba(255, 255, 255, 0.2957);
 }
 main .portfolio1 .category {
   display: flex;
@@ -3127,8 +3154,9 @@ main .portfolio1 .main1 .box1 {
   position: relative;
   width: 30%;
   height: 416px;
+  padding: 5px;
   border: 1px solid rgb(137, 136, 151);
-  border-radius: 2px;
+  border-radius: 5px;
 }
 main .portfolio1 .main1 .box1 img {
   position: absolute;
@@ -3253,16 +3281,771 @@ main .about1 .right button {
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+main .icoon {
+  background-color: rgb(253, 240, 233);
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+main .icoon .container {
+  width: 80%;
+  display: flex;
+}
+main .icoon .container .box {
+  width: 50%;
+  padding: 30px;
+  border: 1px solid rgb(243, 209, 191);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 main .icoon .container .box .box1 .iconCan {
-  padding: 10px;
+  padding: 15px;
   background-color: #EF6D58;
   width: 70px;
   height: 70px;
   border-radius: 50%;
 }
 main .icoon .container .box .box1 .iconCan img {
-  width: 50px;
+  width: 40px;
 }
+main .icoon .container .box .box2 h3 {
+  font-family: Epilogue;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(57, 20, 0);
+}
+main .icoon .container .box .box2 p {
+  font-family: Epilogue;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(57, 20, 0);
+}
+main .featur1 {
+  width: 100%;
+  max-width: 1440px;
+  background-color: rgb(40, 41, 62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+main .featur1 .left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+}
+main .featur1 .left h5 {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #EF6D58;
+}
+main .featur1 .left h2 {
+  width: 70%;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .featur1 .left p {
+  width: 65%;
+  font-family: Epilogue;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .featur1 .left .tickets {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .featur1 .left .tickets div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main .featur1 .left .tickets div p {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .featur1 .right {
+  width: 40%;
+}
+main .featur1 .right img {
+  width: 80%;
+}
+main .gift1 {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(249, 229, 218);
+}
+main .gift1 .box {
+  position: relative;
+  border: 0px solid;
+  border-radius: 5px;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .gift1 .box .box1 h5 {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: rgb(239, 109, 88);
+}
+main .gift1 .box .box1 h4 {
+  width: 70%;
+  font-family: Epilogue;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(57, 20, 0);
+}
+main .gift1 .box .box1 button {
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(239, 109, 88);
+  height: 48px;
+  width: 154px;
+  left: 0px;
+  top: 0px;
+  border-radius: 6px;
+  border: 0px;
+}
+main .gift1 .box .box1 img {
+  position: absolute;
+  top: -29%;
+  left: 0%;
+}
+main .gift1 .box .boxxx p {
+  width: 60%;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(57, 20, 0, 0.64);
+}
+main .client1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(253, 240, 233);
+  max-width: 1440px;
+  width: 100%;
+  gap: 50px;
+}
+main .client1 .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+main .client1 .top h5 {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: rgb(239, 109, 88);
+}
+main .client1 .top h2 {
+  width: 60%;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: rgb(57, 20, 0);
+}
+main .client1 .bottom {
+  justify-content: center;
+  display: flex;
+  width: 80%;
+}
+main .client1 .bottom .left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .client1 .bottom .left .left_ {
+  border: 1px solid rgb(243, 209, 191);
+  gap: 40px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  width: 33%;
+}
+main .client1 .bottom .left .left_ .starss {
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+}
+main .client1 .bottom .left .left_ .text {
+  width: 100%;
+  font-family: Epilogue;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+main .client1 .bottom .left .left_ .glass {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main .client1 .bottom .left .left_ .glass .name h4 {
+  font-family: Epilogue;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+main .client1 .bottom .left .left_ .glass .name p {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+main .client1 .bottom .left .box {
+  border: 1px solid rgb(243, 209, 191);
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 40px;
+  width: 33%;
+}
+main .client1 .bottom .left .box .text {
+  width: 100%;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+main .client1 .bottom .left .box .glass {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main .client1 .bottom .left .box .glass .name h4 {
+  font-family: Epilogue;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+main .client1 .bottom .left .box .glass .name p {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+main .client1 button {
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(40, 41, 62);
+  height: 48px;
+  width: 154px;
+  left: 0px;
+  top: 0px;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+main .asked1 {
+  max-width: 1440px;
+  width: 100%;
+  padding-top: 100px;
+  background-color: #28293e;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding-bottom: 100px;
+}
+main .asked1 .left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .asked1 .left h5 {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: rgb(239, 109, 88);
+}
+main .asked1 .left h3 {
+  width: 60%;
+  font-family: Epilogue;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .asked1 .left .text {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .asked1 .left p {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .asked1 .right {
+  width: 40%;
+}
+main .asked1 .right .box {
+  background-color: white;
+  padding: 50px;
+  border: 1px solid rgb(243, 209, 191);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+main .asked1 .right .box p {
+  width: 100%;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(57, 20, 0, 0.64);
+}
+main .asked1 .right .box .box1 {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+main .asked1 .right .box .box1 h4 {
+  font-family: Epilogue;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(57, 20, 0);
+}
+main .asked1 .right .box2 {
+  padding: 50px;
+  border: 1px solid rgb(58, 60, 86);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+main .asked1 .right .box2 h4 {
+  font-family: Epilogue;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .map1 {
+  max-width: 1440px;
+  height: 720px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+main .map1 .mid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  align-items: center;
+}
+main .map1 .mid .phone1 {
+  width: 40%;
+  background-color: rgb(40, 41, 62);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  flex-direction: column;
+}
+main .map1 .mid .phone1 .texts {
+  display: flex;
+  flex-direction: column;
+}
+main .map1 .mid .phone1 .texts h2 {
+  font-family: Epilogue;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .map1 .mid .phone1 .texts h5 {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #EF6D58;
+}
+main .map1 .mid .phone1 .texts p {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .map1 .mid .phone1 .box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main .map1 .mid .phone1 .box p {
+  font-family: Epilogue;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .map1 .mid .phone1 .box div {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 10px;
+}
+main .map1 .mid .phone1 .box div h5 {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: rgb(239, 109, 88);
+}
+main .map1 .mid .phone1 .box div .logo {
+  background-color: rgb(239, 109, 88);
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 50px;
+  color: white;
+  font-size: 30px;
+}
+main .map1 .mid .get {
+  width: 40%;
+  border-radius: 6px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+}
+main .map1 .mid .get h4 {
+  font-family: Epilogue;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgbargba(57, 20, 0, 1);
+}
+main .map1 .mid .get form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .map1 .mid .get form input {
+  height: 48px;
+  width: 370px;
+  left: 0px;
+  top: 28px;
+  border-radius: 6px;
+  border: 1px solid rgb(243, 209, 191);
+  padding-left: 20px;
+}
+main .map1 .mid .get form .inp {
+  height: 88px;
+  width: 370px;
+  left: 0px;
+  top: 28px;
+  border-radius: 6px;
+  border: 1px solid rgb(243, 209, 191);
+}
+main .map1 .mid .get form button {
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  height: 48px;
+  width: 154px;
+  left: 0px;
+  top: 0px;
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(239, 109, 88);
+  border: none;
+}
+main .dream1 {
+  max-width: 1440px;
+  width: 100%;
+  background-color: rgb(253, 240, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  padding-top: 200px;
+}
+main .dream1 .box {
+  border-radius: 5px;
+  padding: 50px;
+  width: 100%;
+  background-color: rgb(253, 240, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+main .dream1 .box .left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .dream1 .box .left h5 {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #EF6D58;
+}
+main .dream1 .box .left h2 {
+  width: 85%;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: rgb(57, 20, 0);
+}
+main .dream1 .box .left p {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(57, 20, 0);
+  width: 95%;
+}
+main .dream1 .box .left button {
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  height: 48px;
+  width: 154px;
+  left: 0px;
+  top: 0px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  background-color: rgb(239, 109, 88);
+}
+main .dream1 .box .right {
+  width: 40%;
+}
+main .dream1 .box .right img {
+  width: 80%;
+}
+main .footer1 {
+  max-width: 1440px;
+  width: 100%;
+  background-color: rgb(40, 41, 62);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+main .footer1 .top {
+  width: 83%;
+  display: flex;
+  justify-content: space-between;
+}
+main .footer1 .top .box {
+  width: 100%;
+  padding-bottom: 100px;
+  border-bottom: 1px solid rgb(243, 209, 191);
+}
+main .footer1 .top .box p {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .footer1 .top .box h4 {
+  font-family: Epilogue;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .footer1 .top .box h5 {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: rgb(239, 109, 88);
+}
+main .footer1 .bottom {
+  padding-top: 50px;
+  width: 83%;
+  display: flex;
+  justify-content: space-between;
+}
+main .footer1 .bottom p {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .footer1 .bottom div {
+  display: flex;
+  gap: 20px;
+}
+main .footer1 .bottom div p {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .footer1 .bottom div p {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+main .logos1 {
+  padding: 60px 60px 0 60px;
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: rgb(40, 41, 62);
+}
+main .logos1 .bicmap {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+main .logos1 .bicmap img {
+  width: 100px;
+  height: 30px;
+}
+
 @media screen and (max-width: 768px) {
   main .agency-p .bottom {
     padding: 10px;
@@ -3326,5 +4109,108 @@ main .icoon .container .box .box1 .iconCan img {
   }
   main .about1 .right p {
     width: 85%;
+  }
+  main .icoon .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+  main .icoon .container .box {
+    width: 100%;
+  }
+  main .featur1 {
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+  main .featur1 .right {
+    width: 100%;
+  }
+  main .featur1 .left {
+    width: 100%;
+  }
+  main .gift1 {
+    padding-top: 100px;
+  }
+  main .gift1 .box {
+    width: 100%;
+    gap: 10px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .gift1 .box .box1 {
+    width: 100%;
+  }
+  main .gift1 .box .box1 img {
+    top: -25%;
+    left: 0%;
+  }
+  main .gift1 .box .box2 {
+    width: 100%;
+  }
+  main .gift1 .box .boxxx {
+    width: 100%;
+  }
+  main .client1 .bottom .left {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+  main .client1 .bottom .left .left_ {
+    width: 100%;
+  }
+  main .client1 .bottom .left .box {
+    width: 100%;
+  }
+  main .asked1 {
+    flex-direction: column;
+    padding: 10px;
+  }
+  main .asked1 .left {
+    width: 100%;
+  }
+  main .asked1 .right {
+    width: 100%;
+  }
+  main .map1 .mid {
+    flex-direction: column;
+  }
+  main .map1 .mid .phone1 {
+    width: 100%;
+  }
+  main .map1 .mid .get {
+    width: 100%;
+  }
+  main .dream1 .box {
+    flex-direction: column-reverse;
+  }
+  main .dream1 .box .left {
+    width: 100%;
+  }
+  main .dream1 .box .right {
+    width: 100%;
+  }
+  main .footer1 .top {
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .footer1 .bottom {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  main .logos1 {
+    padding-top: 40px;
+  }
+  main .logos1 .bicmap {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  main .logos1 .bicmap img {
+    width: 120px;
   }
 }/*# sourceMappingURL=main.css.map */
