@@ -2812,7 +2812,7 @@ main .footer .bottom div p {
   }
 }
 main .design_studio {
-  width: 1440px;
+  max-width: 1440px;
   display: flex;
   padding: 0 60px 0 60px;
 }
@@ -2936,13 +2936,22 @@ main .agency-p {
   padding-bottom: 100px;
   padding-top: 100px;
 }
+main .agency-p .bottomb p {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: right;
+}
 main .agency-p .top {
-  text-align: center;
+  max-width: 1440px;
   align-items: center;
-  padding-left: 8%;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  text-align-last: center;
 }
 main .agency-p .top h5 {
   font-family: Epilogue;
@@ -2964,6 +2973,7 @@ main .agency-p .top h3 {
   width: 70%;
 }
 main .agency-p .bottom {
+  max-width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3034,7 +3044,225 @@ main .agency-p .bottom .box div .lrn {
   text-align: left;
   color: rgb(57, 20, 0);
 }
-
+main .portfolio1 {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 100px;
+}
+main .portfolio1 .category1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: none;
+  gap: 30px;
+}
+main .portfolio1 .category1 p {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.64);
+}
+main .portfolio1 .category2 {
+  display: flex;
+}
+main .portfolio1 div h5 {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #EF6D58;
+}
+main .portfolio1 .top {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+main .portfolio1 .top .port {
+  display: flex;
+  justify-content: space-between;
+}
+main .portfolio1 .top .port h2 {
+  font-family: Epilogue;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+main .portfolio1 .category {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+main .portfolio1 .category p {
+  font-family: Epilogue;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.64);
+}
+main .portfolio1 .main1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(137, 136, 151);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 20px;
+}
+main .portfolio1 .main1 .box1 {
+  position: relative;
+  width: 30%;
+  height: 416px;
+  border: 1px solid rgb(137, 136, 151);
+  border-radius: 2px;
+}
+main .portfolio1 .main1 .box1 img {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 416px;
+}
+main .portfolio1 .main1 .box1 button {
+  height: 38px;
+  width: 84px;
+  left: 183px;
+  top: 6736px;
+  border-radius: 0px;
+  border: 0px solid white;
+  border-radius: 20px;
+  position: absolute;
+  top: 65%;
+  left: 10%;
+}
+main .portfolio1 .main1 .box1 h3 {
+  font-family: Epilogue;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #FFFFFF;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+main .portfolio1 .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .portfolio1 .btn button {
+  height: 48px;
+  width: 170px;
+  left: 635px;
+  top: 7408px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+}
+main .about1 {
+  width: 100%;
+  max-width: 1440px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  background-color: rgb(253, 240, 233);
+}
+main .about1 .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+main .about1 .left img {
+  width: 60%;
+}
+main .about1 .right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .about1 .right #abt {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #EF6D58;
+}
+main .about1 .right h3 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 64px;
+  color: #391400;
+  width: 70%;
+}
+main .about1 .right h4 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  color: #391400;
+}
+main .about1 .right p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: rgba(57, 20, 0, 0.64);
+  width: 70%;
+}
+main .about1 .right button {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  background: #FFFFFF;
+  width: 100px;
+  height: 34px;
+  border: 0px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+main .icoon .container .box .box1 .iconCan {
+  padding: 10px;
+  background-color: #EF6D58;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+main .icoon .container .box .box1 .iconCan img {
+  width: 50px;
+}
 @media screen and (max-width: 768px) {
   main .agency-p .bottom {
     padding: 10px;
@@ -3076,5 +3304,27 @@ main .agency-p .bottom .box div .lrn {
   }
   main .design_studio .left .button p {
     font-size: 14px;
+  }
+  main .portfolio1 .main1 {
+    flex-direction: column;
+  }
+  main .portfolio1 .main1 .box1 {
+    width: 100%;
+  }
+  main .about1 {
+    padding: 60px 20px;
+    flex-direction: column;
+  }
+  main .about1 .left {
+    width: 100%;
+  }
+  main .about1 .right {
+    width: 100%;
+  }
+  main .about1 .right h3 {
+    width: 100%;
+  }
+  main .about1 .right p {
+    width: 85%;
   }
 }/*# sourceMappingURL=main.css.map */
