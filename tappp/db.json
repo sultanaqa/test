@@ -1,0 +1,24 @@
+{
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" },
+    "sultanaga": { "name": "typicode" },
+    "astara_cennet_yurdum": [
+        {"ad":"fgsdf"},
+        {"ad":"fgsdf"},
+        {"ad":"fgsdf"},
+        {"ad":"fgsdf"},
+        {"ad":"fgsdf"}
+    ],
+    "sultanaga2": [
+        {"name": "Akif"},
+        {"name": "Pünhan"},
+        {"name": "Cümşüd"}
+    ],
+    "sam": { "sul": "tan" , "aga": "rehim" }
+
+  }
