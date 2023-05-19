@@ -1,0 +1,14 @@
+#myInput{
+    width: 200px;
+    height: 20px;
+}
+
+ul,li,a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+
+}
+#container{
+display: flex;
+}
