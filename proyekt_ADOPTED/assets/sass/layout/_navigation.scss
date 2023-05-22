@@ -3,6 +3,11 @@ nav {
     max-width: 1400px;
     width: 100%;
     background-color: rgb(188,81,72);
+    a,li {
+      text-decoration: none;
+      list-style: none;
+      color: inherit;
+  }
     .container_top{
         margin: auto;
         width: 80%;
@@ -50,15 +55,18 @@ nav {
     
 }
 @media only screen and (max-width: 768px) {
-    nav {
-      
-    }
+   
   }
 .nav2 {
     font-family: 'Roboto', sans-serif;
     max-width: 1400px;
     width: 100%;
     background-color: rgb(255,255,255);
+    a,li {
+      text-decoration: none;
+      list-style: none;
+      color: inherit;
+  }
     .container_bottom{
         height: 100px;
         display: flex;
@@ -66,6 +74,29 @@ nav {
         width: 80%;
         justify-content: space-between;
         align-items: center;
+        .Navbar {
+          background-color: #46ACC2;
+          display: flex;
+          padding: 16px;
+          font-family: sans-serif;
+          color: white;display: none;
+        }
+        
+        .Navbar__Link {
+          padding-right: 8px;display: none;
+        }
+        
+        .Navbar__Items {
+          display: flex;display: none;
+        }
+        
+        .Navbar__Items--right {
+          margin-left:auto;display: none;
+        }
+        
+        .Navbar__Link-toggle {
+          display: none;
+        }
         div {
             h1 {
                 letter-spacing: 5px;
@@ -81,31 +112,7 @@ nav {
         }
         
           
-          @media only screen and (max-width: 768px) {
-            .Navbar__Items,
-            .Navbar {
-              flex-direction: column;
-            }
-              
-          .Navbar__Items {
-              display:none;
-            }
-              
-          .Navbar__Items--right {
-              margin-left:0;
-            }
-              
-          .Navbar__ToggleShow {
-              display: flex;
-            }
-              
-          .Navbar__Link-toggle {
-              align-self: flex-end;
-              display: initial;
-              position: absolute;
-              cursor: pointer;
-             } 
-          }
+          
     }
     .dropdown {
         position: relative;
@@ -129,6 +136,7 @@ nav {
 @media only screen and (max-width: 768px) {
     .nav2 {
         .container_bottom{
+          
             ul {
                 display: none;
               }
