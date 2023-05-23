@@ -1,0 +1,145 @@
+header {
+  max-width: 1400px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: auto;
+  background-color: white;
+}
+header nav {
+  width: 80%;
+  margin: auto;
+}
+header nav .astr1 {
+  margin-left: 20%;
+}
+
+main {
+  max-width: 1400px;
+  width: 100%;
+}
+main .offer {
+  max-width: 1400px;
+  width: 100%;
+  background-image: url("https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-banner.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+main .offer .offer_ {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+main .offer .offer_ .offer_top .scpecial {
+  position: relative;
+  background-color: rgb(252, 100, 40);
+  color: white;
+  width: 500px;
+  padding: 20px;
+  gap: 20px;
+}
+main .offer .offer_ .offer_top .scpecial .pyr {
+  border-style: solid;
+  border-width: 22px 14px 0 14px;
+  border-color: #fc6428 transparent transparent transparent;
+  width: 10px;
+  position: absolute;
+  left: 45%;
+  bottom: -22%;
+}
+main .offer .offer_ .offer_bottom {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .offer .offer_ .offer_bottom .left {
+  width: 60%;
+}
+main .offer .offer_ .offer_bottom .left .bottom_b .box1 {
+  gap: 30px;
+  display: flex;
+}
+main .offer .offer_ .offer_bottom .left .bottom_b .box1 .box {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+main .offer .offer_ .offer_bottom .right {
+  width: 40%;
+}
+main .offer .offer_ .offer_bottom .right img {
+  width: 300px;
+}
+main .offer .offer_ .offer_bottom_btn {
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+}
+main .offer .offer_ .offer_bottom_btn button:hover {
+  color: white;
+  transition: 400ms;
+}
+main .offer .offer_ .offer_bottom_btn button {
+  align-self: flex-start;
+  padding: 10px;
+  width: 200px;
+  background-color: #fc6428;
+  color: black;
+  border: none;
+}
+main .service {
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 100px;
+  gap: 100px;
+}
+main .service .top12 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+main .service .top12 p {
+  width: 70%;
+}
+main .service .top12 div {
+  width: 100px;
+  height: 1px;
+  background-color: black;
+}
+main .service .bottom {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+main .service .bottom .box {
+  width: 252px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
